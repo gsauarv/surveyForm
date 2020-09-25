@@ -1,0 +1,257 @@
+*{
+  margin:  0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#landingPage{}
+#aboutPage{}
+#surveyPage{}
+
+.navSection
+{
+  width: 100%;
+  height: 10vh;
+  background-color: #2F2E41;
+  position: fixed;
+
+}
+
+.navContainer
+{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction:row;
+}
+.navLogo
+{
+  width: 100%;
+  height: 10vh;
+
+}
+
+.navLogo h3
+
+{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  line-height: 10vh;
+  padding-left: 100px;
+}
+
+.navLinks
+{
+  width: 50%;
+  height: 10vh;
+}
+nav ul li
+{
+  display: inline;
+  padding: 20px;
+}
+nav ul li a
+{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  line-height: 10vh;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+}
+
+/* Landing Page Started */
+.landingPage
+{
+  width: 100%;
+  height: 100vh;
+  clear: both;
+}
+
+.landingContainer
+{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: row;
+  padding-top: 100px;
+
+}
+
+.landingContent
+{
+  width:40%;
+  height: 100%;
+}
+
+.landingContent h3
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 100px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+}
+
+
+.landingContent p
+{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding-left: 100px;
+  text-align: justify;
+  padding-top: 40px;
+}
+
+.btn
+{
+  margin-left: 100px;
+  margin-top: 80px;
+  height: 40px;
+  outline: none;
+  border:none;
+  width: 200px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  background-color: #FF6584;
+  color: white;
+
+
+}
+
+.btn:hover
+{
+  background-color: #ef3b5f;
+  cursor: pointer;
+
+}
+
+
+.landingImg img
+{
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+/* About Us Section */
+.aboutUs
+{
+  width: 100%;
+  height: 70vh;
+  background-color: #2F2E41;
+}
+
+.aboutUsContainer
+{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutHeading
+{
+  width: 50%;
+  height: 70vh;
+}
+
+.aboutHeading h3
+{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 100px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+}
+
+.aboutContent
+{
+  width: 50%;
+  float: right;
+  margin-top: 90px;
+
+}
+
+.aboutContent p
+{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  color: white;
+  width: 80%;
+  text-align: justify;
+
+}
+
+.surveyPage
+{
+  width: 100%;
+  height: 130vh;
+}
+
+.surveyPage h3
+{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+  font-weight: bold;
+}
+.surveyFormContainer
+{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.surveyFormContainer p
+{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.surveyFormContainer input
+{
+  width: 400px;
+  height: 40px;
+  outline: none;
+  margin-top:5px;
+  margin-bottom: 10px;
+}
+
+.surveyFormContainer textarea
+{
+  width: 400px;
+  height: 150px;
+}
+
+.surveyFormContainer button
+{
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  outline: none;
+  border:none;
+  color: white;
+  background-color: #2F2E41;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+
+}
+
+.surveyFormContainer button:hover
+{
+  background-color: #2F2E51;
+  cursor: pointer;
+
+}
