@@ -1,3 +1,4 @@
+<?php include_once("dB.php") ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -19,6 +20,7 @@
               <li><a href="#landingPage">Home</a></li>
               <li><a href="#aboutPage">About Us</a></li>
               <li><a href="#surveyPage">Take a Survey</a></li>
+              <button name="loginBtn" class="loginBtn" onclick="window.location.href='login.php'">Login</button>
 
             </ul>
           </nav>
@@ -31,7 +33,7 @@
         <div class="landingContent">
           <h3>Creating the Community Stronger,Help Us Improve Our Company.</h3>
           <p>Hello and Welcome to the Survey, Here you can provide your feedback and suggestion to help us build our Community Stronger Then Ever. Together We Can Make Somthing Beautiful.</p>
-          <button class="btn">Take A Survey</button>
+          <button class="btn"  onclick="window.location.href='#surveyPage'">Take A Survey</button>
         </div>
 
         <div class="landingImg">
@@ -54,7 +56,7 @@
     <section class="surveyPage" id="surveyPage">
           <h3>Take a Survey</h3>
       <div class="surveyFormContainer">
-        <form action="index.html" method="post">
+        <form action="index.php" method="post">
           <p>Enter Name</p>
           <br>
           <input type="text" name="fullName">
@@ -71,7 +73,7 @@
           <br><br><br>
           <p>Write Us Something</p>
           <br>
-          <textarea></textarea><br>
+          <textarea name="feedback"></textarea><br>
           <button type="submit" name="submit">Send Us</button>
         </form>
       </div>
